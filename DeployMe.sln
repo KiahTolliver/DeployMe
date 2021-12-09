@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployMe.Client", "DeployMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployMe.Shared", "DeployMe\Shared\DeployMe.Shared.csproj", "{155B28D1-CFCE-4F82-8407-70EE2E5E9016}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C7A99B7F-1C11-40E5-B104-053B0F03C4F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{155B28D1-CFCE-4F82-8407-70EE2E5E9016}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{155B28D1-CFCE-4F82-8407-70EE2E5E9016}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{155B28D1-CFCE-4F82-8407-70EE2E5E9016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A99B7F-1C11-40E5-B104-053B0F03C4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A99B7F-1C11-40E5-B104-053B0F03C4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A99B7F-1C11-40E5-B104-053B0F03C4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A99B7F-1C11-40E5-B104-053B0F03C4F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  deployme.client:
+    image: ${DOCKER_REGISTRY-}deployme
+    build:
+      context: .
+      dockerfile: DeployMe/Client/Dockerfile
+
+  deployme.server:
+    image: ${DOCKER_REGISTRY-}deployme
+    build:
+      context: .
+      dockerfile: DeployMe/Server/Dockerfile
+
